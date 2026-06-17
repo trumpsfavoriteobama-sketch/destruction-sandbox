@@ -1,0 +1,26 @@
+# Godot
+.godot/
+*.import
+*.exported.hscn
+*.scn.remap
+*.gd.remap
+
+# Build
+bin/
+build/
+dist/
+*.exe
+*.app/
+*.dmg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# User
+user://
+*.log

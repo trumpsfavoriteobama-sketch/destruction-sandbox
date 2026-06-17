@@ -1,0 +1,28 @@
+[gd_project]
+
+config_version=5
+steam_deck_config_enabled=true
+
+[application]
+
+config/name="Destruction Sandbox"
+config/description="A fun destruction sandbox game with vehicles, weapons, and destructible buildings"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.1", "4.2", "4.3")
+config/icon="res://assets/icon.svg"
+
+[rendering]
+
+textures/vram_compression/import_etc2_astc=true
+renderer/rendering_method="forward_plus"
+anti_aliasing/screen_space_antialiasing/enabled=true
+global_illumination/voxel_gi/performance=1
+
+[physics]
+
+3d/default_gravity=9.8
+3d/shapes_optimization/generate_convex_collisions=true
+
+[debug]
+
+settings/fps/force_fps=60
